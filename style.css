@@ -20,6 +20,10 @@ html, body {
     grid-row: 1/2;
   }
 
+  #hand-container {
+    background-color: black;
+  }
+
   #start-button {
     color: white;
     background-color: black;
@@ -59,7 +63,7 @@ html, body {
     height: 50px;
     width: 50px;
     color: white;
-    background-color: #fcc006;
+    background-color: grey;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -71,7 +75,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #ca0147;
+    border-right: 15px solid white;
     margin: 2rem;
     margin-right: 35px;
   }
@@ -81,7 +85,7 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #ca0147;
+    border-bottom: 15px solid white;
     margin: 2rem;
     margin-bottom: 35px;
   }
@@ -91,7 +95,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #ca0147;
+    border-left: 15px solid white;
     margin: 2rem;
     margin-left: 35px;
   }
@@ -101,23 +105,23 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #ca0147;
+    border-top: 15px solid white;
     margin: 2rem;
     margin-top: 35px;
   }
 
   .active-left {
-    border-right: 15px solid #c1f80a;
+    border-right: 15px solid black;
   }
 
   .active-up {
-    border-bottom: 15px solid #c1f80a;
+    border-bottom: 15px solid black;
   }
 
   .active-right {
-    border-left: 15px solid #c1f80a;
+    border-left: 15px solid black;
   }
 
   .active-down {
-    border-top: 15px solid #c1f80a;
+    border-top: 15px solid black;
   }
